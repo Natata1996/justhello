@@ -1,4 +1,5 @@
 import {useState} from "react";
+import cat from '../assets/cat.png';
 
 export default function ForFriend () {
 
@@ -14,7 +15,7 @@ export default function ForFriend () {
             {showImage && (
                 <>
                     <img
-                        src="/cat.png"
+                        src={cat}
                         alt="сюрприз"
 
                         width={200}
